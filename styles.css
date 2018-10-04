@@ -1,0 +1,274 @@
+
+
+@font-face {
+    font-family: 'AnironC';
+    src: url('Font/anicb___.ttf');
+    font-weight: normal;
+    font-style: normal;
+}	 
+h2 {
+    font-family:AnironC, sans-serif;
+    font-size: 2.75vw;
+}
+.mainNavFont {
+    font-family:AnironC, sans-serif;
+    color: white;
+    font-size: 1.3vw;
+}
+.mainNavFont:hover {
+    font-family:AnironC, sans-serif;
+    color: rgb(165, 165, 165);
+}
+
+.cardDescription {
+    color: grey;
+}
+
+.navFont {
+    font-family:AnironC, sans-serif;
+    font-size: calc(10px + 0.75vw);
+    color: grey;
+}
+
+@font-face {
+    font-family: 'Tengwar';
+    src: url('Font/tngani.ttf');
+    font-weight: normal;
+    font-style: normal;
+    }	 
+h2:before, h2:after {
+    content: "ij";
+    font-family:Tengwar, sans-serif;
+    color: #ff5f01;
+    padding: 0 1vw 0 1vw;
+    font-size: 2.75vw;
+}
+.navFontActive:before, .navFontActive:after {
+    content: "b";
+    font-family:Tengwar, sans-serif;
+    padding: 0 0.5vw 0 0.5vw;
+    font-size: 1.75vw;
+    color: #ff5f01;
+}
+
+.navFontSpanActive {
+    color: #ff5f01;
+    font-size: calc(10px + 0.75vw);
+}
+
+.navFontActive.nav-link.active {
+    border: none;
+    background-color: transparent;
+}
+
+.liActive:after {
+    text-decoration: none;
+    position: relative;
+}
+
+.liActive:after {
+    content: '';
+    width: 20vw;
+    position: absolute;
+    bottom: 10px;
+    left: 5vw;
+    border-width: 0 0 0.30vw;
+    border-style: solid;
+    color: #ff5f01;
+}
+
+.nav-item {
+    border: none;
+}
+.nav-tabs {
+    border: none;
+}
+.navFontNoActive:hover {
+    color: black;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Partybusiness';
+    src: url('Font/partybusiness.ttf');
+    font-weight: normal;
+    font-style: normal;
+}	 
+.carousel-caption p.mainCaption {
+    font-family:Partybusiness, sans-serif;
+    font-size: 6vw;
+    text-align: left;
+}
+
+.spanAlive {
+    font-size: 1.25vw;
+}
+.cardMostWanted h5 {
+    font-family:Partybusiness, sans-serif;
+}
+.cardMostWanted p {
+    font-family:Partybusiness, sans-serif;
+    font-size: calc(15px + 1vw);
+}
+.cardMostWanted .card-body p {
+    font-family:Partybusiness, sans-serif;
+}
+.secondCaption, .spanCarouselSign {
+    font-size: 3vw;
+    font-family:Partybusiness, sans-serif;
+    text-align: left;
+}
+.spanCarouselSign:before {
+    content: '';
+    margin-left: 14vw;
+}
+.sectionLight {
+    padding: 4em 0 6em 0;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.imageFellows {
+    filter: blur(2px);
+}
+
+.cardTiTleMostWanted {
+    margin-top: 25%;
+    font-size: calc(25px + 1vw);
+}
+.cardTextMostWanted {
+    border: 1px solid rgb(75, 74, 74);
+    background-color: rgb(255, 255, 255, 0.8);
+	border-radius: 10px;
+	width: 80%;
+	padding: 2% 10% 2% 10%;
+    color: #1a1a1a;
+}
+
+.cardTitleGimly {
+    color: #e63900;
+    font-size: 4rem;
+}
+
+.cardTiTleMostWantedGimly {
+    font-size: 4rem;
+    margin-top: 25%;
+}
+
+.cardTextMostWanted span {
+	color: #e63900;
+}
+.cardMostWanted:hover .cardTiTleMostWanted {
+    font-size: 2rem;
+    margin-top: 90%;
+}
+.cardMostWanted:hover .cardTiTleMostWantedGimly {
+    font-size: 2rem;
+    margin-top: 60%;
+}
+.cardMostWanted:hover .cardTextMostWanted {
+    display: none;
+}
+
+.cardMostWanted:hover .imageFellows {
+    filter: none;
+}
+
+hr {
+    margin: 2em 0 2em 0;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
+.barreNav {
+    background-color: #ff5f01;
+}
+
+footer {
+    background-color: #ff5f01;
+}
+
+.divider-vertical {
+    border-right: 1px solid #FFF;
+
+}
+
+@media (max-width: 767px) {
+    .divider-vertical {
+        border-right: 0px solid #FFF;
+     }
+}
+
+.navLinkActive {
+    text-decoration: none;
+    position: relative;
+}
+.navLinkActive:after {
+    content: '';
+    width: 6vw;
+    position: absolute;
+    bottom: -8px;
+    left: 27.5%;
+    border-width: 0 0 0.25vw;
+    border-style: solid;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.sectionLight {
+    background-image: url(images/bg_light.png);
+}
+
+.sectionDark {
+    background-image: url(images/bg_dark.png);
+}
+
+s {
+    text-decoration-color: #e63900;
+}
+
+.headCarte {
+    background-color: #ff5f01;
+}
+
+.navbar-brand {
+    width: 32.5vw;
+    height: auto;
+}
+@media all and (max-width: 767px) {
+    .mainNavFont {
+        font-size: calc(10px + 0.5vw);
+        margin: 10px 0 10px 0;
+    }
+    .navLinkActive:after {
+        content: '';
+        width: 15vw;
+        position: absolute;
+        bottom: -4px;
+        left: 40vw;
+        border-width: 0 0 0.25vw;
+        border-style: solid;
+        color: rgba(255, 255, 255, 0.808);
+    }
+}
+
+/* @media all and (max-width: 1368px) {
+    .carousel-caption p.mainCaption {
+        font-size: 4rem;
+    }
+    p.secondCaption {
+        font-size: 2rem;
+    }
+    .spanCarouselSign {
+        font-size: 2rem;
+    }
+    .spanCarouselSign:before {
+        content: '';
+        margin-left: 10rem;
+    }
+} */
